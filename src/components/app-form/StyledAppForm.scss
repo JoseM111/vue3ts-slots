@@ -1,0 +1,62 @@
+/* StyledAppForm.scss */
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+/*――――――― (|  SCSS-VARIABLES  |) ―――――――*/
+
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+// ☰☰☰☰☰☰ (|  nested styles  |) ☰☰☰☰☰☰
+.defaultText {
+  padding: 30px 50px;
+  background: deeppink;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.buttons {
+  //..........
+  .btnText {
+    margin-left: 20rem;
+    margin-top: 4rem;
+    font: bold 1.2rem "Amazon Ember", serif;
+    color: white;
+    padding: 15px 70px;
+    background: dodgerblue;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    //☰☰☰☰☰☰☰☰☰☰
+    &:hover {
+      background: aqua;
+      color: black;
+      transition: all 0.25s ease-in;
+    }
+    //☰☰☰☰☰☰☰☰☰☰
+    &:active {
+      opacity: 0.15;
+      transition: all 0.25s ease-in;
+    }
+  }
+  //..........
+  .btnsContacts {
+    @extend .btnText;
+    background: orange;
+    margin-left: 11rem;
+    //☰☰☰☰☰☰☰☰☰☰
+    &:hover {
+      background: white;
+    }
+  }
+}
+
+input {
+  cursor: pointer;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding-right: 7rem;
+  margin-right: 2rem;
+}
+
+p {
+  font-family: "Amazon Ember", serif;
+  color: mediumpurple;
+  text-align: center;
+  font-size: 53px;
+}

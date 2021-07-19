@@ -7,6 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@types/node-sass": "^4.11.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "10",
     "vue": "^3.0.4"
   },
   "devDependencies": {
